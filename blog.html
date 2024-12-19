@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUNRISE Solar Experts - Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-light-blue text-gray-800 font-sans">
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <img src="logo2.jpg" alt="SUNRISE Solar Logo" class="h-8 w-10 mr-2 ">
+                    <a href="index.html" class="text-2xl font-bold text-dark-blue">SUNRISE Solar</a>
+                </div>
+                <div class="hidden md:flex space-x-4">
+                    <a href="index.html" class="hover:text-dark-blue">Home</a>
+                    <a href="about.html" class="hover:text-dark-blue">About</a>
+                    <a href="services.html" class="hover:text-dark-blue">Services</a>
+                    <a href="testimonials.html" class="hover:text-dark-blue">Testimonials</a>
+                    <a href="blog.html" class="hover:text-dark-blue">Blog</a>
+                    <a href="contact.html" class="hover:text-dark-blue">Contact</a>
+                </div>
+                <button id="mobile-menu-button" class="md:hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="index.html" class="block py-2 px-4 text-sm hover:bg-gray-200">Home</a>
+            <a href="about.html" class="block py-2 px-4 text-sm hover:bg-gray-200">About</a>
+            <a href="services.html" class="block py-2 px-4 text-sm hover:bg-gray-200">Services</a>
+            <a href="testimonials.html" class="block py-2 px-4 text-sm hover:bg-gray-200">Testimonials</a>
+            <a href="blog.html" class="block py-2 px-4 text-sm hover:bg-gray-200">Blog</a>
+            <a href="contact.html" class="block py-2 px-4 text-sm hover:bg-gray-200">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="py-20">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl font-bold mb-8 text-center">Our Blog</h1>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="blog1.jpeg" alt="Blog post image" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h2 class="text-xl font-semibold mb-2">The Benefits of Solar Panel Installation</h2>
+                            <p class="mb-4">Learn about the numerous advantages of installing solar panels for your home or business...</p>
+                            <!-- <a href="#" class="text-dark-blue hover:underline">Read More</a> -->
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="blog2.jpeg" alt="Blog post image" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h2 class="text-xl font-semibold mb-2">Choosing the Right Solar System for Your Needs</h2>
+                            <p class="mb-4">Discover the different types of solar systems available and how to select the best one for your requirements...</p>
+                            <!-- <a href="#" class="text-dark-blue hover:underline">Read More</a> -->
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="blog3.jpg" alt="Blog post image" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h2 class="text-xl font-semibold mb-2">Maintenance Tips for Your Solar Panels</h2>
+                            <p class="mb-4">Learn how to keep your solar panels in top condition with these essential maintenance tips...</p>
+                            <!-- <a href="#" class="text-dark-blue hover:underline">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark-blue text-white py-6">
+        <!-- Footer content (same as in layout.html) --> <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-xl font-bold">SUNRISE Solar Experts</h3>
+                    <p class="mt-2">Powering a sustainable future</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:text-light-blue">Privacy Policy</a>
+                    <a href="#" class="hover:text-light-blue">Terms of Service</a>
+                </div>
+            </div>
+            <div class="mt-4 text-center">
+                <p>&copy; 2023 SUNRISE Solar Experts. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
